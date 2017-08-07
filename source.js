@@ -1,3 +1,5 @@
-export default function tempLate (alpha: mixed): mixed {
-  return alpha
+/* eslint-disable no-undefined */
+
+export default function isPresent (value: mixed): boolean {
+  return !(value === undefined || value === null)
 }
