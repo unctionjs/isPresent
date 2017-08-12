@@ -1,7 +1,7 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-undefined, no-magic-numbers */
 import {test} from "tap"
 
-import isPopulated from "./source"
+import isPresent from "./source"
 
 test("array", ({equal, end}) => {
   equal(isPresent([]), true)
