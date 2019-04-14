@@ -1,53 +1,53 @@
 /* eslint-disable no-undefined, no-magic-numbers */
-import {test} from "tap"
+import {test} from "tap";
 
-import isPresent from "./index"
+import isPresent from "./index";
 
 test("array", ({equal, end}) => {
-  equal(isPresent([]), true)
+  equal(isPresent([]), true);
 
-  end()
-})
+  end();
+});
 
 test("object", ({equal, end}) => {
-  equal(isPresent({}), true)
+  equal(isPresent({}), true);
 
-  end()
-})
+  end();
+});
 
 test("string", ({equal, end}) => {
-  equal(isPresent(""), true)
+  equal(isPresent(""), true);
 
-  end()
-})
+  end();
+});
 
 test("zero", ({equal, end}) => {
-  equal(isPresent(0), true)
+  equal(isPresent(0), true);
 
-  end()
-})
+  end();
+});
 
 test("true", ({equal, end}) => {
-  equal(isPresent(true), true)
+  equal(isPresent(true), true);
 
-  end()
-})
+  end();
+});
 
 test("false", ({equal, end}) => {
-  equal(isPresent(false), true)
+  equal(isPresent(false), true);
 
-  end()
-})
+  end();
+});
 
 test("null", ({equal, end}) => {
-  equal(isPresent(null), false)
+  equal(isPresent(null), false);
 
-  end()
-})
+  end();
+});
 
 
 test("undefined", ({equal, end}) => {
-  equal(isPresent(undefined), false)
+  equal(isPresent(undefined), false);
 
-  end()
-})
+  end();
+});
