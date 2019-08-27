@@ -1,7 +1,7 @@
 /* eslint-disable no-undefined, no-magic-numbers */
 import {test} from "tap";
 
-import isPresent from "./index";
+import isPresent from "./";
 
 test("array", ({equal, end}) => {
   equal(isPresent([]), true);
