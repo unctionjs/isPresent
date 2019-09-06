@@ -1,5 +1,5 @@
 /* eslint-disable no-undefined, no-magic-numbers */
-import isPresent from "./index.ts";
+import isPresent from "./index";
 
 test("array", () => {
   expect(isPresent([])).toBe(true);
